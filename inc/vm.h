@@ -15,6 +15,7 @@
 
 # include "libft.h"
 # include "vm_error.h"
+# include "visual.h"
 # include "op.h"
 # include <fcntl.h>
 # include <unistd.h>
@@ -169,7 +170,7 @@ void				write_fun(t_cursor *cursor, int val, int ind);
 void				write_val(t_cursor *cursor, int *shift, int val, int mask);
 
 void				buttle(void);
-void				print_players(void);
+void				print_cur(void);
 void				print_map(void);
 void				print_v(t_cursor *cursor, int val, int reg, t_uchar mask);
 void				cursor_move(t_cursor *cursor, int shift);

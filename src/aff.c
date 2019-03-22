@@ -41,7 +41,7 @@ void	cursor_move(t_cursor *cursor, int shift)
 	ft_printf("\n");
 }
 
-void	print_players(void)
+void	print_cur(void)
 {
 	int			i;
 	t_cursor	*cursor;
