@@ -3,8 +3,9 @@
 # l'annee derniere
 #     VOALA
 #
-.name		"Celebration Funebre v0.99pl42"
-.comment	"Jour J"
+.name		""
+.comment	".name "
+
 
 		ld   %0,r3		
 label:		zjmp %:avantdebt
@@ -25,7 +26,6 @@ code:		live %42			# 5
 		sti  r15,%0,r14			# 6
 		zjmp %-200			# 3
 		sti  r15,%0,r14			# 6
-		zjmp %-200
 	
 avantdebt:	sti   r1,%:code,%1  # 		# mets a jour le live
 		sti   r1,%:code,%15 # 		# mets a jour le live

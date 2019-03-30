@@ -96,6 +96,7 @@ void		print_players(void)
 								g_array_players[i - 1]->live_per_period);
 		i++;
 	}
+	box(g_ncur->score, 0, 0);
 }
 
 void		print_score_board(void)

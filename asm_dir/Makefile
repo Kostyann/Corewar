@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME =  ../asm
+NAME =  asm
 
 INCDIR = includes/
  
@@ -52,7 +52,7 @@ clean:
 	@echo \\033[34m======[Cleaned]=========\\033[0m
 
 fclean: clean
-	@rm -f $(NAME)
+	@rm -f ../$(NAME)
 
 re: fclean all
 

@@ -72,7 +72,7 @@ void		print_map(void)
 		{
 			ft_printf("%02x ", g_arena[i]);
 			i++;
-			flag = i % 64;
+			flag = i % 32;
 		}
 		ft_printf("\n");
 	}

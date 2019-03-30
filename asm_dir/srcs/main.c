@@ -105,7 +105,7 @@ int				main(int argc, char **argv)
 		validity(champion);
 	}
 	else if (argc == 2)
-		ft_printf("Can't read source file%s\n", argv[1]);
+		ft_printf("Can't read source file %s\n", argv[1]);
 	else
 		ft_printf(RED("Usage: ./asm <sourcefile.s>\n"));
 	return (0);

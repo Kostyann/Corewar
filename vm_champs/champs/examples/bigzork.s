@@ -1,4 +1,4 @@
-.name "bigzork"
+.name ""
 .comment "I know i cant win"
 
 ld %0, r2
