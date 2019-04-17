@@ -9,6 +9,7 @@ The project is inspired by the original CoreWar from 1984: https://en.wikipedia.
 
 # Subject
 https://github.com/Kostyann/Corewar/blob/master/Subject/corewar.en.pdf
+https://github.com/Kostyann/Corewar/blob/master/Subject/resources_corewar.en.pdf
 # Usage
 make
 
