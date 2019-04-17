@@ -8,7 +8,7 @@ Final project in algorithmic branch. This project required a group to create:
 The project is inspired by the original CoreWar from 1984: https://en.wikipedia.org/wiki/Core_War 
 
 # Subject
-
+https://github.com/Kostyann/Corewar/blob/master/Subject/corewar.en.pdf
 # Usage
 make
 
